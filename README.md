@@ -12,11 +12,11 @@
 
 ## Overview
 
-The **Fresh Start Effect** is a well-documented psychological phenomenon where people are more motivated to pursue goals around temporal landmarks (Mondays, 1st of the month, New Year's Day). This project investigates whether this effect extends to **criminal behavior** - specifically, do criminals planning deliberate crimes subconsciously choose "fresh start" moments to commit their offenses?
+The Fresh Start Effect is a well-documented psychological phenomenon where temporal landmarks—particularly the start of the week (Mondays)—can influence planning-oriented behavior.
 
 ### Key Finding
 
-**YES!** Our analysis of 5+ years of South Australia crime data reveals that premeditated crimes (fraud, burglary, theft) show statistically significant stronger patterns on temporal landmarks compared to impulsive crimes (assault, violent offenses).
+**YES!** — modestly and primarily on Mondays.The analysis shows a statistically significant association between crime type and temporal landmarks. Premeditated crimes display a small positive alignment with landmark timing, while impulsive crimes show a negative alignment.
 
 ---
 
@@ -44,11 +44,12 @@ The **Fresh Start Effect** is a well-documented psychological phenomenon where p
 
 The Fresh Start Effect (Dai, Milkman & Riis, 2014) describes how temporal landmarks create psychological "fresh starts" that motivate goal-directed behavior:
 
-**Temporal Landmarks Include:**
-- Mondays ("I'll start my diet Monday")
-- 1st of the month ("New month, new me")
-- Quarter starts
-- New Year's Day
+
+**Temporal landmarks considered in this analysis include:**
+- Mondays (primary and most consistent signal)
+- 1st of the month (weaker, weekday-dependent)
+- Quarter starts (weaker, weekday-dependent)
+
 
 **Our Hypothesis:** If criminals planning premeditated crimes are influenced by this psychological phenomenon, we should see crime patterns cluster around these temporal landmarks.
 
@@ -140,6 +141,8 @@ jupyter notebook Fresh_Start_Effect_Analysis.ipynb
 - **Premeditated crimes** show positive FSI (more crimes on landmarks)
 - **Impulsive crimes** show weaker/neutral FSI
 - Difference is consistent across multiple crime types
+- show a consistent Monday-based alignment
+- show a relatively stronger alignment compared to impulsive crimes
 
 ### 3. Most Susceptible Crime Types
 1. Fraud and deception (highest FSI)
@@ -152,12 +155,13 @@ jupyter notebook Fresh_Start_Effect_Analysis.ipynb
 - Day of week and crime category are top predictive features
 - Models can partially predict landmark vs. non-landmark crimes
 
+### The Fresh Start effect in crime appears primarily as a weekly (Monday-based) phenomenon, while monthly and quarterly landmarks show weaker or inconsistent effects due to weekday confounding.
 ---
 
 ## Practical Implications
 
 ### For Law Enforcement
-- Increase fraud monitoring at month/quarter starts
+- Increase monitoring and preventive attention at the start of the week (Mondays), when planned crimes show higher concentration.
 - Enhanced burglary prevention on Mondays
 - Optimize resource allocation around temporal landmarks
 
