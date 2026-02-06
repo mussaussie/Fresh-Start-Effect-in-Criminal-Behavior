@@ -97,12 +97,6 @@ FSI = (Actual Landmark Proportion - Expected Proportion) / Expected Proportion
 - Chi-Square Test for Independence
 - Cross-validation for ML models
 
-### 6. Machine Learning
-- Logistic Regression
-- Random Forest
-- Gradient Boosting
-
----
 
 
 ---
@@ -150,10 +144,6 @@ jupyter notebook Fresh_Start_Effect_Analysis.ipynb
 3. Theft and related offences
 4. Robbery
 
-### 4. Machine Learning Performance
-- Random Forest achieved best classification accuracy
-- Day of week and crime category are top predictive features
-- Models can partially predict landmark vs. non-landmark crimes
 
 ### The Fresh Start effect in crime appears primarily as a weekly (Monday-based) phenomenon, while monthly and quarterly landmarks show weaker or inconsistent effects due to weekday confounding.
 ---
